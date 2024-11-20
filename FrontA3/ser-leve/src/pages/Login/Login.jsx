@@ -29,8 +29,8 @@ const Login = () => {
     
       
       <div style={styles.container}>
-        <img src="./Texto_do_seu_parágrafo-removebg-preview.png" className="max-w-sm h-auto "/>
-        <h1 className="font-bold text4xl text-orange-400">Já tem uma conta?</h1>
+        <img src="./Logotipo marca nutricionista veganismo saúde maçã verde_processed.png"/>
+        <h1 className="font-bold text-4xl text-[#74a201]">Já tem uma conta?</h1>
         <h1>Faça seu login:</h1>
         <form onSubmit={handleSubmit} style={styles.form}>
           <h2 style={styles.title}>Login</h2>
@@ -109,7 +109,7 @@ const styles = {
     padding: '10px',
     borderRadius: '4px',
     border: 'none',
-    backgroundColor: '#ff4700',
+    backgroundColor: '#74a201',
     color: '#fff',
     fontSize: '1rem',
     cursor: 'pointer',
@@ -124,7 +124,7 @@ const styles = {
     textAlign: 'center',
   },
   registerLink: {
-    color: '#ff4700',
+    color: '#74a201',
     textDecoration: 'none',
     fontWeight: 'bold',
   },

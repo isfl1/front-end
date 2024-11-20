@@ -35,13 +35,13 @@ const Settings = () => {
       {/* Barra de navegação */}
       <Nav />
 
-      <div className="grid md:flex gap-6 max-w-8xl p-4 mx-auto">
+      <div className="grid md:flex gap-6 max-w-5xl p-4 mx-auto">
         {/* Barra lateral */}
         <Sidebar />
 
         {/* Conteúdo principal - Configurações */}
         <div className="flex-1 p-6 bg-white rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold mb-4 text-green-500">Configurações</h2>
+          <h2 className="text-2xl font-bold mb-4 text-orange-600">Configurações</h2>
           <div>
             <h3 className="text-lg font-semibold mb-4">Editar Perfil</h3>
             
@@ -51,13 +51,13 @@ const Settings = () => {
                 <img
                   src={profileData.profilePicture}
                   alt="Foto de Perfil"
-                  className="w-32 h-32 rounded-full object-cover border-4 border-green-500"
+                  className="w-32 h-32 rounded-full object-cover border-4 border-orange-600"
                 />
               </div>
               <div className="mt-4">
                 <label
                   htmlFor="profilePicture"
-                  className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 cursor-pointer"
+                  className="px-4 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700 cursor-pointer"
                 >
                   Mudar Foto
                 </label>
@@ -116,7 +116,7 @@ const Settings = () => {
               </div>
               <button
                 type="submit"
-                className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
+                className="px-4 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700"
               >
                 Salvar Alterações
               </button>

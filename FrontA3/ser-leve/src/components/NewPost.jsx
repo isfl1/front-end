@@ -22,7 +22,7 @@ function NewPost({ setPosts, setCurrentTime }) {
         />
 
         <button
-          className="font-bold bg-orange-600 px-7 py-2 rounded-lg text-white text-sm hover:bg-orange-500 transition-all"
+          className="font-bold bg-green-500 px-7 py-2 rounded-lg text-white text-sm hover:bg-green-600 transition-all"
           onClick={() =>
             createPost(
               textareaRef,
@@ -42,7 +42,7 @@ function NewPost({ setPosts, setCurrentTime }) {
       <div>
         <label
           htmlFor="image-upload"
-          className="inline-flex gap-1 items-center cursor-pointer hover:text-orange-500 transition-all"
+          className="inline-flex gap-1 items-center cursor-pointer hover:text-gray-500 transition-all"
         >
           <PhotoIcon className="size-5" />
           <span className="font-semibold text-sm hidden sm:inline">Photo</span>

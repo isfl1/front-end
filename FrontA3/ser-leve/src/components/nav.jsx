@@ -14,15 +14,12 @@ function Nav() {
     }
 
     return (
-      <nav className="bg-orange-600 flex justify-around items-center p-2">
-        <h1 className="font-bold text-green-800 text-2xl">SerLeve</h1>
-        <input
-          type="text"
-          className="rounded-full bg-white py-1 px-4 md:w-96"
-          placeholder="Search"
-        />
-          <Link to={userDestination()} className=" font-bold text-green-800 bg-orange-600 py-2 px-3 rounded-full hover:bg-orange-700">Login</Link>
-      
+      <nav className="bg-green-500 flex justify-start gap-5 p-2">
+        <img src="Logotipo marca nutricionista veganismo saúde maçã verde_processed (1).png" alt="Logo" className="h-10 object-contain " />
+        <h1 className="font-bold text-gray-800 text-2xl">SerLeve</h1>
+        
+          <Link to={userDestination()} className="ml-auto flex  font-bold text-gray-800 bg-green-500 py-2 px-3 rounded-full hover:bg-gray-700">Login</Link>
+
       </nav>
     );
   }

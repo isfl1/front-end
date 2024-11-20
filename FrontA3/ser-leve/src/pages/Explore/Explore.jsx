@@ -1,5 +1,6 @@
 import Nav from '../../components/nav';
 import Sidebar from '../../components/SideBar';
+
 import React from "react";
 
 function Explore() {
@@ -25,12 +26,13 @@ function Explore() {
   ];
 
   return (
-    <div className="bg-[#dcd9e1] min-h-screen pb-10">
+    <div className="bg-[#dcd9e1] h-screen pb-10">
       <Nav />
-      <div className="grid md:flex gap-6 max-w-5xl p-4 mx-auto">
+      <div className=" grid md:flex gap-6 max-w-8xl h-screen p-4 "> 
         <Sidebar />
+       
         <div className="p-6 flex-1">
-          <h1 className="text-2xl font-bold mb-4">Explore Receitas</h1>
+          <h1 className="text-2xl font-bold mb-4 text-green-600">Explore Receitas</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {recipes.map((recipe) => (
               <div
@@ -45,8 +47,10 @@ function Explore() {
                 <div className="p-4">
                   <h2 className="text-lg font-bold">{recipe.title}</h2>
                   <p className="text-sm text-gray-600">{recipe.description}</p>
+                 
                 </div>
               </div>
+          
             ))}
           </div>
         </div>

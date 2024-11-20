@@ -28,9 +28,9 @@ const Register = () => {
   return (
     <div className="register-container">
         <div className="flex items-center justify-center">
-        <img src="Texto_do_seu_parágrafo-removebg-preview.png" className="max-w-sm h-auto "/>
+        <img src="Logotipo marca nutricionista veganismo saúde maçã verde_processed.png" className="max-w-sm h-auto "/>
         </div>
-      <h2 className="font-bold text-orange-600">Registrar</h2>
+      <h2 className="font-bold text-[#74a201]">Registrar</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Nome:</label>
@@ -76,10 +76,10 @@ const Register = () => {
             required
           />
         </div>
-        <button type="submit" className="text-orange-600">Registrar</button>
+        <button type="submit" >Registrar</button>
       </form>
       <p>
-        Já tem uma conta? <a href="/login">Login</a>
+        Já tem uma conta? <a href="/login" className="text-[#74a201]">Login</a>
       </p>
     </div>
   );
